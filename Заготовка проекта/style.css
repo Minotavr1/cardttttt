@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'StratosSkyeng', sans-serif;
+}
+
+
+    
+
+
+
+.card  {
+    border: 2px solid black;
+    width: 380px;
+    border-radius: 25px;
+    margin-left: 500px;
+}
+
+
+  
+  p {
+    width: 350px;
+    padding: 20px;
+    font-weight: 100;
+  }
+   
+h2 {
+    padding: 20px;
+}
+
+
+.card_img {
+    width: 298px 262px ;
+    padding: 20px;
+    
+   }
+
+   
+
+   
+         
+    
+
+    
+
+.card__button {
+    background-color: #F99417;
+    margin-left: 20px;
+    margin-bottom:30px ;
+    cursor: pointer;
+    border-radius:23px;
+border: 2px solid black;
+    height: 40px; 
+    width: 65px; 
+
+}
+ 
+
+/* Эффект наведения курсора мыши на элемент с классом card__button */
+.card__button:hover {
+    /* Прозрачность всего элемента  - такое значение говорит браузеру показывать только 70% элемента по прозрачности */
+    opacity: .7;
+}
+
+.icon {
+    width: 20px;
+    color: #363062;
+}
